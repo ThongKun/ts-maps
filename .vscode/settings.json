@@ -1,0 +1,6 @@
+{
+  "workbench.activityBar.visible": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true
+}
