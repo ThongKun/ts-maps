@@ -5,11 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Map</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLEW4S3JwYwrXkqQPc26o76hb7cRbO0Hs" async defer>
+  </script>
+  <script src="./src/index.ts"></script>
 </head>
 
 <body>
-  <script src="./src/index.ts"></script>
-  
+  <div id="map" style="height: 100%;"></div>
+
+
+
 </body>
 
 </html>
